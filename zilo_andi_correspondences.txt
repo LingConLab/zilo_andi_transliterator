@@ -1,7 +1,3 @@
-PATTERNS
-correspondences
-
-LEXICON correspondences
 А:a
 а:a
 А2:ã

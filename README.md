@@ -10,29 +10,48 @@ This is an FST converter that converts modified Avar Cyrillic alphabet (used in 
 Please refer to the transliterator as follows:
 
 ```
-Moroz G. (2025) An FST transliterator from Zilo Andi Cyrillic to IPA, https://github.com/LingConLab/zilo_andi_transliterator
+Moroz G. (2026) An FST transliterator from Zilo Andi Cyrillic to IPA, https://github.com/LingConLab/zilo_andi_transliterator
 ```
 
 ## Usage
 
 ```
 $ make
-$ echo "гьарзалъир" | hfst-proc zilo_andi_cyrillic2ipa.hfstol
+$ echo "Микъи битIилъи\!" | hfst-proc -C zilo_andi_cyrillic2ipa.hfstol
 
-^гьарзалъир/harzalʔir/harzaɬir$ 
+"<Микъи>"
+	"mikʔi"
+	"miqχ'i"
+"<битIилъи>"
+	"bit'ilʔi"
+	"bit'iɬi"
 ```
 
-Make sure you have `hfst` and `lexd` installed. Here are the instructions.
+Transliterator is based on `hfst`, so make sure you have `hfst` installed. Here are the installation instructions.
 
 ```
 $ curl -s https://apertium.projectjj.com/apt/install-nightly.sh | sudo bash
-$ sudo apt-get install hfst lexd
+$ sudo apt-get install hfst
 ```
 
 All metadata could be seen using the following command:
 
 ```
 $ hfst-edit-metadata zilo_andi_cyrillic2ipa.hfstol
+address: Moscow
+author: George Moroz
+citation: Moroz G. (2026) An FST transliterator from Zilo Andi Cyrillic to IPA, Linguistic Convergence Laboratory, HSE University, Moscow, https://github.com/LingConLab/zilo_andi_transliterator
+family: East Caucasian
+formulaic-definition: Id _1^∞ .
+fst_type: transliterator
+language: Zilo Andi (zilo1238)
+licence: GPL-3.0
+name: Zilo Andi Cyrillic to IPA transliterator
+publisher: Linguistic Convergence Laboratory, HSE University
+type: HFST_OL
+usage_example: echo "Микъи битIилъи\!" | hfst-proc -C zilo_andi_cyrillic2ipa.hfstol
+version: 3.3
+year: 2026    
 ```
 
 I decided not to do the reverse IPA to cyrillic side as a simple reverse after I gathered all possible capitals:
