@@ -17,7 +17,7 @@ Moroz G. (2026) An FST transliterator from Zilo Andi Cyrillic to IPA, https://gi
 
 ```
 $ make
-$ echo "Микъи битIилъи\!" | hfst-proc -C zilo_andi_cyrillic2ipa.hfstol | cg3 -g garbage_collectore.cg3
+$ echo "Микъи битIилъи\!" | hfst-proc -C zilo_andi_cyrillic2ipa.hfstol | cg3 -g zilo_andi_cyrillic2ipa.cg3
 
 "<Микъи>"
 	"miqχ'i"
@@ -25,7 +25,7 @@ $ echo "Микъи битIилъи\!" | hfst-proc -C zilo_andi_cyrillic2ipa.hfst
 	"bit'iɬi"
 ```
 
-Transliterator is based on `hfst`, so make sure you have `hfst` installed. Here are the installation instructions.
+Transliterator is based on `hfst` and `cg3`, so make sure you have `hfst` installed. Here are the installation instructions.
 
 ```
 $ curl -s https://apertium.projectjj.com/apt/install-nightly.sh | sudo bash
@@ -38,6 +38,7 @@ All metadata could be seen using the following command:
 $ hfst-edit-metadata zilo_andi_cyrillic2ipa.hfstol
 address: Moscow
 author: George Moroz
+cg3: true
 citation: Moroz G. (2026) An FST transliterator from Zilo Andi Cyrillic to IPA, Linguistic Convergence Laboratory, HSE University, Moscow, https://github.com/LingConLab/zilo_andi_transliterator
 family: East Caucasian
 formulaic-definition: Id _1^∞ .
@@ -47,9 +48,9 @@ licence: GPL-3.0
 name: Zilo Andi Cyrillic to IPA transliterator
 publisher: Linguistic Convergence Laboratory, HSE University
 type: HFST_OL
-usage_example: echo "Микъи битIилъи\!" | hfst-proc -C zilo_andi_cyrillic2ipa.hfstol
+usage_example: echo "Микъи битIилъи\!" | hfst-proc -C zilo_andi_cyrillic2ipa.hfstol | cg3 -g zilo_andi_cyrillic2ipa.cg3
 version: 3.3
-year: 2026    
+year: 2026
 ```
 
 I decided not to do the reverse IPA to cyrillic side as a simple reverse after I gathered all possible capitals:

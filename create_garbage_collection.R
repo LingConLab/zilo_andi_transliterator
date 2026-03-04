@@ -16,7 +16,7 @@ result$cyr |>
   analysis
 
 'DELIMITERS = "<.>" "<!>" "<?>" "<...>";\n' |> 
-  write_lines("garbage_collectore.cg3")
+  write_lines("zilo_andi_cyrillic2ipa.cg3")
 
 result |> 
   mutate(analysis = analysis,
@@ -28,5 +28,5 @@ result |>
   mutate(cg3 = str_glue("REMOVE (/{analysis}/ri) ;\n", .trim = FALSE)) |> 
   distinct(cg3) |> 
   pull(cg3) |> 
-  write_lines("garbage_collectore.cg3", append = TRUE)
+  write_lines("zilo_andi_cyrillic2ipa.cg3", append = TRUE)
   
