@@ -1,0 +1,226 @@
+DELIMITERS = "<.>" "<!>" "<?>" "<...>";
+
+REMOVE (/hw/ri) ;
+
+REMOVE (/k'w/ri) ;
+
+REMOVE (/k'k'/ri) ;
+
+REMOVE (/k'wk'w/ri) ;
+
+REMOVE (/k'wk'ʷ/ri) ;
+
+REMOVE (/k'ʷk'w/ri) ;
+
+REMOVE (/k'ʷk'ʷ/ri) ;
+
+REMOVE (/k'k'w/ri) ;
+
+REMOVE (/k'k'ʷ/ri) ;
+
+REMOVE (/k'ːw/ri) ;
+
+REMOVE (/kw/ri) ;
+
+REMOVE (/kk/ri) ;
+
+REMOVE (/kkw/ri) ;
+
+REMOVE (/kkʷ/ri) ;
+
+REMOVE (/kːw/ri) ;
+
+REMOVE (/χʔ/ri) ;
+
+REMOVE (/kʔ/ri) ;
+
+REMOVE (/kʔw/ri) ;
+
+REMOVE (/kʔʷ/ri) ;
+
+REMOVE (/qχ'w/ri) ;
+
+REMOVE (/qχw/ri) ;
+
+REMOVE (/χʔw/ri) ;
+
+REMOVE (/χʔʷ/ri) ;
+
+REMOVE (/ss/ri) ;
+
+REMOVE (/t'w/ri) ;
+
+REMOVE (/ts'w/ri) ;
+
+REMOVE (/ts'ts'/ri) ;
+
+REMOVE (/ts'wts'w/ri) ;
+
+REMOVE (/ts'wts'ʷ/ri) ;
+
+REMOVE (/ts'ʷts'w/ri) ;
+
+REMOVE (/ts'ʷts'ʷ/ri) ;
+
+REMOVE (/ts'ts'w/ri) ;
+
+REMOVE (/ts'ts'ʷ/ri) ;
+
+REMOVE (/ts'ːw/ri) ;
+
+REMOVE (/tsw/ri) ;
+
+REMOVE (/tsts/ri) ;
+
+REMOVE (/tstsw/ri) ;
+
+REMOVE (/tstsʷ/ri) ;
+
+REMOVE (/tsːw/ri) ;
+
+REMOVE (/tɬ'w/ri) ;
+
+REMOVE (/tɬ'tɬ'/ri) ;
+
+REMOVE (/tɬ'tɬ'w/ri) ;
+
+REMOVE (/tɬ'tɬ'ʷ/ri) ;
+
+REMOVE (/tɬ'ːw/ri) ;
+
+REMOVE (/tɬw/ri) ;
+
+REMOVE (/tɬtɬ/ri) ;
+
+REMOVE (/tɬwtɬw/ri) ;
+
+REMOVE (/tɬwtɬʷ/ri) ;
+
+REMOVE (/tɬʷtɬw/ri) ;
+
+REMOVE (/tɬʷtɬʷ/ri) ;
+
+REMOVE (/tɬtɬw/ri) ;
+
+REMOVE (/tɬtɬʷ/ri) ;
+
+REMOVE (/tɬːw/ri) ;
+
+REMOVE (/tʃ'w/ri) ;
+
+REMOVE (/tʃ'tʃ'/ri) ;
+
+REMOVE (/tʃ'wtʃ'w/ri) ;
+
+REMOVE (/tʃ'wtʃ'ʷ/ri) ;
+
+REMOVE (/tʃ'ʷtʃ'w/ri) ;
+
+REMOVE (/tʃ'ʷtʃ'ʷ/ri) ;
+
+REMOVE (/tʃ'tʃ'w/ri) ;
+
+REMOVE (/tʃ'tʃ'ʷ/ri) ;
+
+REMOVE (/tʃ'ːw/ri) ;
+
+REMOVE (/tʃw/ri) ;
+
+REMOVE (/tʃtʃ/ri) ;
+
+REMOVE (/tʃtʃw/ri) ;
+
+REMOVE (/tʃtʃʷ/ri) ;
+
+REMOVE (/tʃːw/ri) ;
+
+REMOVE (/xw/ri) ;
+
+REMOVE (/xx/ri) ;
+
+REMOVE (/xxw/ri) ;
+
+REMOVE (/xxʷ/ri) ;
+
+REMOVE (/xːw/ri) ;
+
+REMOVE (/zw/ri) ;
+
+REMOVE (/ħw/ri) ;
+
+REMOVE (/ɡw/ri) ;
+
+REMOVE (/lʔ/ri) ;
+
+REMOVE (/lʔlʔ/ri) ;
+
+REMOVE (/lʔɬ/ri) ;
+
+REMOVE (/ɬlʔ/ri) ;
+
+REMOVE (/ɬɬ/ri) ;
+
+REMOVE (/lʔwlʔw/ri) ;
+
+REMOVE (/lʔwlʔʷ/ri) ;
+
+REMOVE (/lʔwɬw/ri) ;
+
+REMOVE (/lʔʷlʔw/ri) ;
+
+REMOVE (/lʔʷlʔʷ/ri) ;
+
+REMOVE (/lʔʷɬw/ri) ;
+
+REMOVE (/ɬwlʔw/ri) ;
+
+REMOVE (/ɬwlʔʷ/ri) ;
+
+REMOVE (/ɬwɬw/ri) ;
+
+REMOVE (/lʔlʔw/ri) ;
+
+REMOVE (/lʔlʔʷ/ri) ;
+
+REMOVE (/lʔɬw/ri) ;
+
+REMOVE (/ɬlʔw/ri) ;
+
+REMOVE (/ɬlʔʷ/ri) ;
+
+REMOVE (/ɬɬw/ri) ;
+
+REMOVE (/ɬːw/ri) ;
+
+REMOVE (/ɡʔ/ri) ;
+
+REMOVE (/ɡʔw/ri) ;
+
+REMOVE (/ɡʔʷ/ri) ;
+
+REMOVE (/ʁw/ri) ;
+
+REMOVE (/ʃʃ/ri) ;
+
+REMOVE (/ʒw/ri) ;
+
+REMOVE (/ʔw/ri) ;
+
+REMOVE (/χw/ri) ;
+
+REMOVE (/χχ/ri) ;
+
+REMOVE (/χwχw/ri) ;
+
+REMOVE (/χwχʷ/ri) ;
+
+REMOVE (/χʷχw/ri) ;
+
+REMOVE (/χʷχʷ/ri) ;
+
+REMOVE (/χːw/ri) ;
+
+REMOVE (/χχw/ri) ;
+
+REMOVE (/χχʷ/ri) ;
+

@@ -1,2 +1,4 @@
 *.hfst
 *.hfstol
+*.Rout
+.RData

@@ -12,5 +12,5 @@ zilo_andi_cyrillic2ipa.hfstol: zilo_andi_correspondences.txt
     	--add=year='2026' \
     	--add=language='Zilo Andi (zilo1238)' \
     	--add=family='East Caucasian' \
-    	--add=usage_example='echo "Микъи битIилъи\!" | hfst-proc -C zilo_andi_cyrillic2ipa.hfstol' \
+    	--add=usage_example='echo "Микъи битIилъи\!" | hfst-proc -C zilo_andi_cyrillic2ipa.hfstol | cg3 -g garbage_collectore.cg3' \
     	--add=citation='Moroz G. (2026) An FST transliterator from Zilo Andi Cyrillic to IPA, Linguistic Convergence Laboratory, HSE University, Moscow, https://github.com/LingConLab/zilo_andi_transliterator' -o $@

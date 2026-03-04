@@ -17,13 +17,11 @@ Moroz G. (2026) An FST transliterator from Zilo Andi Cyrillic to IPA, https://gi
 
 ```
 $ make
-$ echo "Микъи битIилъи\!" | hfst-proc -C zilo_andi_cyrillic2ipa.hfstol
+$ echo "Микъи битIилъи\!" | hfst-proc -C zilo_andi_cyrillic2ipa.hfstol | cg3 -g garbage_collectore.cg3
 
 "<Микъи>"
-	"mikʔi"
 	"miqχ'i"
 "<битIилъи>"
-	"bit'ilʔi"
 	"bit'iɬi"
 ```
 
