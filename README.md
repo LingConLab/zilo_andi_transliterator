@@ -29,7 +29,7 @@ Transliterator is based on `hfst` and `cg3`, so make sure you have `hfst` instal
 
 ```
 $ curl -s https://apertium.projectjj.com/apt/install-nightly.sh | sudo bash
-$ sudo apt-get install hfst
+$ sudo apt-get install hfst cg3
 ```
 
 All metadata could be seen using the following command:
